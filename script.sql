@@ -1,6 +1,3 @@
-CREATE DATABASE sophia_db;
-USE sophia_db;
-
 CREATE TABLE IF NOT EXISTS 'Project' (
   id INT PRIMARY KEY NOT NULL auto_increment,
   name VARCHAR(100),
